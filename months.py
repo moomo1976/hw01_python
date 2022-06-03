@@ -7,13 +7,6 @@ months = ['Leden','Únor','Březen','Duben','Květen','Červen']
 # Rozšíření stávajícího seznamu měsícu o 7. až 12. měsíc.
 months.extend(['Červenec','Srpen','Září','Říjen','Listopad','Prosinec'])
 
-# // Jen tak jsem si hrál, třeba v budnoucnu použiji
-# jaro = months[2], months[3], months[4]
-# leto = months[5], months[6], months[7]
-# podzim =months[8], months[9], months[10]
-# zima = months[11], months[1], months[2]
-
-
 # Výběr a výpis ze seznamu je proveden z obou stran za použití znaménka "-"
 # Výběr měsíce "Červen := z levé str.indexu [5]  a z pravé strany  hodnotě [-7]
 print("\nDle zadání má program vypsat:\n \t\t\t\t 3. a 6. měsíc je:" , months[2], "a", months[-7],"\n\n")
