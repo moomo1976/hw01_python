@@ -1,0 +1,49 @@
+Radek Kitner18:46
+kosik = 99
+
+x = 100
+y = 20
+
+
+if x < y or kosik>100:
+    print("x je menší nebo máme dost peněz")
+
+print("pokračování")
+
+
+
+
+
+
+
+
+
+
+
+
+
+Radek Kitner18:27
+x = 10
+y = 5
+
+
+
+
+
+if x < y:
+    print("x je menší")
+else:
+    print("x je větší")
+print("pokračování")
+Radek Kitner18:37
+x = input("Zadej X:")
+y = input("Zadej Y:")
+
+if x < y:
+    print("x je menší")
+elif y < x:
+    print("y je menší")
+else:
+    print("x je rovno y")
+
+print("pokračování")
